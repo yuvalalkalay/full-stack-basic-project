@@ -1,0 +1,159 @@
+body{
+    background: linear-gradient(-315deg,#b147f3,#6bdce4);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.mainDiv{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 80px 1fr 550px;
+}
+
+.mainH1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    text-decoration: underline;
+    color: #7af6ff;
+}
+
+.mainTableDiv{
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonC{
+    margin:auto;
+    margin-top: 20px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 45px;
+    width: 160px;
+    border: rgb(212, 0, 255);
+    border-style: solid;
+    color: rgb(212, 0, 255);
+
+    background-color: rgba(0, 0, 0, 0);
+    transition: 250ms;
+    border-radius: 50px;
+}
+
+.buttonC:hover{
+    transform: scale(1.2,1.2);
+    border:#6bdce4;
+    border-style: solid;
+    color: #6bdce4;
+} 
+
+.trh{
+    
+    background: linear-gradient(-45deg,#b147f3,#6bdce4);
+    color: aliceblue;
+    padding: 0px;
+}
+
+tr{
+    height: 35px;
+    padding: 0px;
+    margin: 0px;
+}
+
+td{
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    transition: 250ms;
+}
+
+.mainTable{
+    border-spacing: 0ch;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.editB{
+    border: none;
+    background-color: rgba(126, 193, 255, 0.6);
+    color: white;
+    width:inherit;
+    height: 35px;
+    transition-duration: 250ms;
+}
+
+.editB:hover{
+    background-color: rgb(106, 180, 250);
+}
+
+.deleteB{
+    color: white;
+    border: none;
+    background-color: rgba(229, 163, 255, 0.6);
+    width:inherit;
+    height: 35px;
+    transition-duration: 250ms;
+}
+
+
+.deleteB:hover{
+    background-color: rgb(206, 134, 235);
+}
+
+.td:hover{
+    background-color: rgb(186, 133, 255)
+}
+
+.secendB{
+    margin-top: 15px;
+    margin-left: 65%;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 45px;
+    width: 160px;
+    border: rgb(212, 0, 255);
+    border-style: solid;
+    color: rgb(212, 0, 255);
+
+    background-color: rgba(0, 0, 0, 0);
+    transition: 250ms;
+    border-radius: 50px;
+}
+
+.secendB:hover{
+    transform: scale(1.2,1.2);
+    border:#6bdce4;
+    border-style: solid;
+    color: #6bdce4;
+}
+
+.button3{
+    height: 45px;
+    width: 160px;
+    border: rgb(212, 0, 255);
+    border-style: solid;
+    color: rgb(212, 0, 255);
+
+    background-color: rgba(0, 0, 0, 0);
+    transition: 250ms;
+    border-radius: 50px;
+}
+
+.button3:hover{
+    transform: scale(1.2,1.2);
+    border:#6bdce4;
+    border-style: solid;
+    color: #6bdce4;
+}

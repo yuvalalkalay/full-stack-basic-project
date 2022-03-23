@@ -1,0 +1,5 @@
+first open the server.js with node after use see Connected successfully in the terminal open the folder pages and after open index.html
+(pages/index.html).
+
+yuval alkalay
+number: 058-5656888
